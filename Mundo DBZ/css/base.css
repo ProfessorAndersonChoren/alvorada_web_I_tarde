@@ -1,0 +1,35 @@
+* {
+  /* Resetar o CSS */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elemento */
+header {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Identificadores e classes */
+section#menu {
+  background-color: #e55e2e;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center; /* Eixo vertical */
+  justify-content: space-between; /* Eixo horizontal */
+}
+
+/* Hierarquia */
+section#menu > header {
+  display: flex;
+  align-items: center; /* Eixo vertical */
+}
+
+section#menu > header > span {
+  margin-left: 15px;
+}
+header > nav {
+  background-color: #fda402;
+  padding: 7px 10px;
+}
