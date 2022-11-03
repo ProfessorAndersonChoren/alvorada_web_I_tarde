@@ -17,7 +17,7 @@ header {
   font-weight: bold;
 }
 main {
-  width: 70vw; /* Cerca de 70% da largura tela */
+  width: 90vw; /* Cerca de 70% da largura tela */
   margin: 0 auto; /* Centralizar um container */
 }
 
@@ -79,14 +79,16 @@ main > div > h1 {
   font-size: 18px;
 }
 
-.card > h2 {
+.card h2 {
   color: #7fcb07;
   font-size: 18px;
+  margin-bottom: 16px;
 }
 
 footer {
   background-color: #e55e2e;
   padding: 10px;
+  margin-top: 20px;
 }
 
 footer > p {
