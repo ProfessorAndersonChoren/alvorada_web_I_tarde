@@ -16,13 +16,15 @@ header {
   color: #ffffff;
   font-weight: bold;
 }
+
 main {
-  width: 90vw; /* Cerca de 70% da largura tela */
+  width: 95vw; /* Cerca de 95% da largura tela */
   margin: 0 auto; /* Centralizar um container */
 }
 
 p {
   margin-bottom: 10px;
+  font-size: 12px;
 }
 
 /* Identificadores e classes */
@@ -32,6 +34,10 @@ section#menu {
   display: flex;
   align-items: center; /* Eixo vertical */
   justify-content: space-between; /* Eixo horizontal */
+}
+
+.card>p {
+  text-indent: 20px;
 }
 
 img.banner {
